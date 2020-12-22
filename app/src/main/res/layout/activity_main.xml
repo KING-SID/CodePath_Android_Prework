@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/reddish"
+    tools:context=".MainActivity"
+    android:id ="@+id/parent">
+
+    <TextView
+        android:id ="@+id/labelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello from Sid!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="40sp"
+        android:textColor = "@color/black"
+        />
+
+    <Button
+        android:id="@+id/changeBGColorBtn"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="#1111ee"
+        android:text="change background"
+        android:textColor="#ffffff"
+        />
+
+    <EditText
+        android:layout_width="200sp"
+        android:layout_height="70sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/editText"
+        android:ems="10"
+        android:hint="Your own text!"
+
+        />
+    <Button
+        android:id="@+id/chngTxtLabelBtn"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_below="@id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10sp"
+        android:background="#ff22ee"
+        android:text="change text label"
+
+        />
+
+    <Button
+        android:id="@+id/changeTxtBtn"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="#1111ee"
+        android:layout_above="@id/changeBGColorBtn"
+        android:text="click To Change Text"
+        android:layout_margin="50dp"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/buttonChangeTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="#ff0034"
+        android:textColor="#ffffff"
+        android:text="Click to change text colour"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:layout_margin="24dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="30sp" />
+
+</RelativeLayout>
