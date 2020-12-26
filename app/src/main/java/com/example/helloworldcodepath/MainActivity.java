@@ -3,6 +3,7 @@ package com.example.helloworldcodepath;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -40,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String text = "Android Is Awesome!";
                 textView.setText(text);
+                textView.setTextSize(30);
+                textView.setGravity(Gravity.CENTER);
             }
         });
 
