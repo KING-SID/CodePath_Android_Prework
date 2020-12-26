@@ -4,7 +4,7 @@
 This is an Android App created as part of the pre-work for the CodePath program!
 
 ### App Walk-though
-<img src="https://i.imgur.com/byocgQ4.gif" width=200>
+<img src="https://i.imgur.com/9mFKvpE.gif" width=200>
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
