@@ -14,8 +14,10 @@
         android:layout_height="wrap_content"
         android:text="Hello from Sid!"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:layout_marginTop="50dp"
-        android:textSize="40sp"
+        android:textSize="30sp"
+        android:layout_below="@id/changeBGColorBtn"
         android:textColor = "@color/black"
         />
 
@@ -23,17 +25,17 @@
         android:id="@+id/changeBGColorBtn"
         android:layout_width="100sp"
         android:layout_height="100sp"
+        android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="10dp"
-        android:background="#1111ee"
+        android:layout_margin="50dp"
+        android:background="#ffdd00"
         android:text="change background"
-        android:textColor="#ffffff"
-        />
+        android:textColor="#000000" />
 
     <EditText
         android:layout_width="200sp"
         android:layout_height="70sp"
-        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:id="@+id/editText"
         android:ems="10"
@@ -44,24 +46,23 @@
         android:id="@+id/chngTxtLabelBtn"
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:layout_below="@id/editText"
-        android:layout_alignParentRight="true"
-        android:layout_margin="10sp"
         android:background="#ff22ee"
         android:text="change text label"
-
+        android:layout_margin="50dp"
+        android:layout_below="@id/editText"
+        android:layout_centerHorizontal="true"
         />
 
     <Button
         android:id="@+id/changeTxtBtn"
         android:layout_width="100sp"
         android:layout_height="100sp"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="10dp"
-        android:background="#1111ee"
-        android:layout_above="@id/changeBGColorBtn"
-        android:text="click To Change Text"
+        android:layout_alignParentTop="true"
         android:layout_margin="50dp"
+        android:layout_below="@id/editText"
+        android:background="#1111ee"
+        android:text="click To Change Text"
+        android:layout_alignParentRight="true"
         android:textColor="#ffffff"
         />
 
